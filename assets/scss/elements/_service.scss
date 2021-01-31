@@ -3,6 +3,9 @@
 ===========================*/
 /* Bg Color Variation  */
 .single-service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     .icon {
         svg {
             width: 54px;
@@ -311,6 +314,7 @@
         }
 
         .content {
+            text-align: center;
             h3 {
                 &.title {
                     margin-bottom: 20px;

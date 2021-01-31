@@ -704,5 +704,13 @@
 }
 
 .logo {
-    max-width: 200px;
+    max-width: 150px;
+}
+
+.rn-slider-area {
+    .service-wrapper.service-white {
+        .row {
+            justify-content: center;
+        }
+    }
 }
