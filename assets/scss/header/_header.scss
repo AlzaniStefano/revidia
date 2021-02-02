@@ -711,6 +711,15 @@
     .service-wrapper.service-white {
         .row {
             justify-content: center;
+            align-items: baseline;
+
+            .content {
+                padding: 0 40px;
+            }
         }
     }
+}
+
+[data-aos^=zoom][data-aos^=zoom].aos-animate {
+    transform: none!important;
 }

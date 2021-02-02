@@ -23,6 +23,17 @@ Index All JS
     'use strict';
 
     /*-------------------- 
+        00. Row animation 
+    --------------------*/
+
+    // $('.row > * :not(.img-wrapper)').each(function() {
+    //     console.log($(this));
+    //     var row = $(this)[0];
+    //     row.dataset.aos = 'zoom-in';
+    //     row.dataset.aosAnchorPlacement = 'center-bottom';
+    // });
+
+    /*-------------------- 
         01. Wow Active 
     --------------------*/
 
