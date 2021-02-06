@@ -23,15 +23,34 @@ Index All JS
     'use strict';
 
     /*-------------------- 
-        00. Row animation 
+        00. header animation 
     --------------------*/
 
-    // $('.row > * :not(.img-wrapper)').each(function() {
-    //     console.log($(this));
-    //     var row = $(this)[0];
-    //     row.dataset.aos = 'zoom-in';
-    //     row.dataset.aosAnchorPlacement = 'center-bottom';
-    // });
+    var position = $(window).scrollTop(); 
+
+    if (position !== 0) {
+        $('header').addClass('not-top');
+    }
+
+    $(window).scroll(function() {
+        var scroll = $(window).scrollTop();
+
+        if (scroll == 0) {
+            $('header').removeClass('not-top');
+        }
+
+        if (scroll !== 0) {
+            $('header').addClass('not-top');
+        }
+
+        if(scroll > position && position > 800) {
+            $('header').addClass('hide-scroll');
+
+        } else {
+            $('header').removeClass('hide-scroll');
+        }
+        position = scroll;
+    });
 
     /*-------------------- 
         01. Wow Active 
