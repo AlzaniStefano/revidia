@@ -10569,6 +10569,14 @@ ul.nav.tab-style--1 {
 .rn-card + .rn-card {
   margin-top: 10px; }
 
+section#our-team {
+  margin-bottom: 60px; }
+  section#our-team .text-wrapper .text-paragraph {
+    background-color: #abd8ff;
+    padding: 50px 15%; }
+  section#our-team .image-wrapper {
+    transform: translateY(35%); }
+
 .list-style--1 li {
   color: #7e7e7e;
   font-weight: 400;
