@@ -8260,7 +8260,7 @@ Footer Style Two
     .footer-section .hide-mobile {
       display: none; } }
 
-main {
+.main-custom {
   position: relative;
   z-index: 2;
   background: white;
@@ -9286,6 +9286,9 @@ a.item-portfolio-static {
 /*====================
     Slider Area 
 ======================*/
+.slider-fixed--height_drone {
+  height: 90vh; }
+
 .slider-fixed--height {
   min-height: 1080px;
   width: 100%; }
