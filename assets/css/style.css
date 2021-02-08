@@ -9888,6 +9888,12 @@ Slider Default
   border-radius: 6px;
   position: relative; }
 
+.box-model .service-wrapper .photograpy {
+  background-image: url(../images/bg/bg-photograpy-hero.jpg);
+  padding: 10px 50px;
+  border-radius: 6px;
+  position: relative; }
+
 .box-model .service-wrapper .service {
   margin: 0; }
 
