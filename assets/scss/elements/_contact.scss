@@ -28,6 +28,10 @@
     textarea {
         height: 120px;
     }
+
+    ::placeholder {
+        color: #1f1f25;
+    }
 }
 
 
@@ -136,3 +140,30 @@ p.form-messege-active.form-messege.error {
 p.form-messege-active.form-messege.success {
     color: green;
 }
+
+.contact-us-wrapper {
+    background-color: orange;
+    padding: 5em;
+    margin-top: -500px;
+    @media #{$sm-layout} {
+        margin-top: 0px;
+        padding: 3em 1em;
+        .section-title h2.title  {
+            font-size: 30px;
+        }
+    }
+    @media #{$md-layout} {
+        margin-top: -250px;
+        padding: 3em 1em;
+        .section-title h2.title  {
+            font-size: 40px;
+        }
+    }
+
+   
+}
+
+@media #{$sm-layout}{
+.hide-mobile {
+    display: none;
+}}
