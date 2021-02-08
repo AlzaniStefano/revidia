@@ -8260,6 +8260,13 @@ Footer Style Two
     .footer-section .hide-mobile {
       display: none; } }
 
+.main-custom-drone {
+  position: relative;
+  z-index: 2;
+  background: #101010;
+  margin-bottom: 300px;
+  box-shadow: 3px 2px 2px 0px rgba(51, 51, 51, 0.5); }
+
 .main-custom {
   position: relative;
   z-index: 2;
@@ -11734,9 +11741,6 @@ BLog Details Styles
   .active-dark .bg_color--1,
   .active-dark .brand-separation {
     background: #191919; }
-  .active-dark .bg_color--5,
-  .active-dark .footer-right {
-    background: #101010; }
   .active-dark .header-area.header--sticky.sticky {
     background: #101010; }
   .active-dark ul.brand-style-2 img {
