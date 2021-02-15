@@ -2,7 +2,7 @@
     Slider Area 
 ======================*/
 .slider-fixed--height_drone {
-    height: 90vh;
+    height: 100vh;
 }
 .slider-fixed--height {
     min-height: 1080px;
@@ -807,6 +807,13 @@ Slider Default
 }
 .box-model .service-wrapper {
     background-image: url(../images/bg/bg-image-1.jpg);
+    padding: 10px 50px;
+    border-radius: 6px;
+    position: relative;
+}
+
+.photo {
+    background-image: url(../images/bg/bg-image-31.jpg);
     padding: 10px 50px;
     border-radius: 6px;
     position: relative;

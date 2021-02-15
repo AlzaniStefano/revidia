@@ -9398,7 +9398,7 @@ a.item-portfolio-static {
     Slider Area 
 ======================*/
 .slider-fixed--height_drone {
-  height: 90vh; }
+  height: 100vh; }
 
 .slider-fixed--height {
   min-height: 1080px;
@@ -9988,6 +9988,12 @@ Slider Default
 
 .box-model .service-wrapper {
   background-image: url(../images/bg/bg-image-1.jpg);
+  padding: 10px 50px;
+  border-radius: 6px;
+  position: relative; }
+
+.photo {
+  background-image: url(../images/bg/bg-image-31.jpg);
   padding: 10px 50px;
   border-radius: 6px;
   position: relative; }
@@ -10893,6 +10899,9 @@ p.form-messege-active.form-messege.error {
 p.form-messege-active.form-messege.success {
   color: green; }
 
+#contact-us {
+  padding: 120px 0; }
+
 .contact-us-wrapper {
   background-color: orange;
   padding: 5em;
@@ -11222,6 +11231,140 @@ Gallery Styles
       font-weight: 300;
       display: block;
       margin-bottom: 28px; }
+
+.our-service {
+  margin: 80px 0;
+  position: relative; }
+  .our-service .container.service .row {
+    justify-content: center; }
+    .our-service .container.service .row .square {
+      border: 2px solid black;
+      width: 300px;
+      text-align: center; }
+
+.container-box .item-squared-1 {
+  display: block;
+  position: relative;
+  margin: 2em auto;
+  width: 24em;
+  height: 24em;
+  float: left;
+  margin: 5px; }
+  .container-box .item-squared-1::after {
+    position: absolute;
+    top: 1rem;
+    right: -1rem;
+    width: 100%;
+    height: 100%;
+    background: #222;
+    transition: .3s;
+    content: ''; }
+  .container-box .item-squared-1:focus {
+    outline: none; }
+  .container-box .item-squared-1:focus::after, .container-box .item-squared-1:hover::after {
+    width: calc(100% + 14rem);
+    height: calc(100% + 14rem);
+    right: -15rem;
+    background-color: cadetblue;
+    z-index: 2; }
+
+.container-box .item-squared-2 {
+  display: block;
+  position: relative;
+  margin: 2em auto;
+  width: 24em;
+  height: 24em;
+  float: left;
+  margin: 5px; }
+  .container-box .item-squared-2::after {
+    position: absolute;
+    top: 1rem;
+    right: -1rem;
+    width: 100%;
+    height: 100%;
+    background: #222;
+    transition: .3s;
+    content: ''; }
+  .container-box .item-squared-2:focus {
+    outline: none; }
+  .container-box .item-squared-2:focus::after, .container-box .item-squared-2:hover::after {
+    width: calc(100% + 14rem);
+    height: calc(100% + 14rem);
+    background-color: cadetblue;
+    z-index: 2; }
+
+.container-box .item-squared-3 {
+  display: block;
+  position: relative;
+  margin: 2em auto;
+  width: 24em;
+  height: 24em;
+  float: left;
+  margin: 5px; }
+  .container-box .item-squared-3::after {
+    position: absolute;
+    top: 1rem;
+    right: -1rem;
+    width: 100%;
+    height: 100%;
+    background: #222;
+    transition: .3s;
+    content: ''; }
+  .container-box .item-squared-3:focus {
+    outline: none; }
+  .container-box .item-squared-3:focus::after, .container-box .item-squared-3:hover::after {
+    width: calc(100% + 14rem);
+    height: calc(100% + 14rem);
+    top: -13rem;
+    right: -15rem;
+    background-color: cadetblue;
+    z-index: 2; }
+
+.container-box .item-squared-4 {
+  display: block;
+  position: relative;
+  margin: 2em auto;
+  width: 24em;
+  height: 24em;
+  float: left;
+  margin: 5px; }
+  .container-box .item-squared-4::after {
+    position: absolute;
+    top: 1rem;
+    right: -1rem;
+    width: 100%;
+    height: 100%;
+    background: #222;
+    transition: .3s;
+    content: ''; }
+  .container-box .item-squared-4:focus {
+    outline: none; }
+  .container-box .item-squared-4:focus::after, .container-box .item-squared-4:hover::after {
+    width: calc(100% + 14rem);
+    height: calc(100% + 14rem);
+    top: -13rem;
+    background-color: cadetblue;
+    z-index: 2; }
+
+#creativity {
+  width: 100%;
+  background-color: palegoldenrod;
+  padding: 120px 0; }
+
+.top-200 {
+  top: 200px; }
+
+.top--50 {
+  top: -50px; }
+
+#creativity-2 {
+  margin: 120px 0; }
+
+#paragraph {
+  margin: 120px 0; }
+
+.top--400 {
+  top: -400px; }
 
 /**************************************
     Blog Styles
