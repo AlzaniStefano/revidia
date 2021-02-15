@@ -3130,6 +3130,12 @@ font-family: 'Poppins', sans-serif;
 .bg_overlay {
   position: relative; }
 
+.bg_image.bg_image--music {
+  background-image: url(https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2550&q=80); }
+
+.bg_image.attachment {
+  background-attachment: fixed; }
+
 .bg_image--1 {
   background-image: url(../images/bg/bg-image-1.jpg); }
 
@@ -3753,6 +3759,42 @@ textarea:-ms-input-placeholder {
 
 img.react-parallax-bgimage {
   object-fit: contain; }
+
+.flex {
+  display: flex; }
+  .flex.jc-c {
+    justify-content: center; }
+  .flex.ai-c {
+    align-items: center; }
+  .flex.ai-s {
+    align-items: flex-start; }
+  .flex.ai-e {
+    align-items: flex-end; }
+  .flex.fd-c {
+    flex-direction: column; }
+  .flex.fd-r {
+    flex-direction: row; }
+
+.content {
+  transition: transform 1s;
+  transform-style: preserve-3d; }
+
+.flip-card:hover .content {
+  transform: rotateY(180deg);
+  transition: transform 0.5s; }
+
+.front,
+.back {
+  backface-visibility: hidden; }
+
+.back {
+  transform: rotateY(180deg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ffe189; }
 
 /*=========================
     Section Separation 
@@ -9286,6 +9328,68 @@ a.item-portfolio-static {
 @media only screen and (max-width: 575px) {
   .service-one-wrapper {
     margin: 0 -15px; } }
+
+#contact-us {
+  padding-bottom: 75px; }
+
+.music-page #make-your-music {
+  margin: 130px 0; }
+  .music-page #make-your-music .container {
+    position: relative; }
+    .music-page #make-your-music .container .bars-wrapper {
+      display: flex;
+      align-items: center;
+      height: 300px; }
+      .music-page #make-your-music .container .bars-wrapper .bar {
+        flex: 1;
+        height: 300px;
+        background: #ffe189;
+        margin: 0 1%; }
+        .music-page #make-your-music .container .bars-wrapper .bar.odd {
+          animation: bars-music 2s infinite; }
+        .music-page #make-your-music .container .bars-wrapper .bar.other {
+          animation: bars-music-2 3s infinite; }
+        .music-page #make-your-music .container .bars-wrapper .bar.not-odd {
+          animation: bars-music-3 4s infinite; }
+    .music-page #make-your-music .container .bars-title {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      max-width: 270px;
+      text-align: center;
+      font-size: 40px;
+      font-weight: 700; }
+
+.music-page #music-grid {
+  margin: 150px 0; }
+  .music-page #music-grid h3 {
+    font-size: 48px;
+    text-align: end; }
+
+@keyframes bars-music {
+  from {
+    height: 300px; }
+  50% {
+    height: 50px; }
+  to {
+    height: 300px; } }
+
+@keyframes bars-music-2 {
+  from {
+    height: 30px; }
+  50% {
+    height: 150px; }
+  to {
+    height: 30px; } }
+
+@keyframes bars-music-3 {
+  from {
+    height: 300px; }
+  50% {
+    height: 50px; }
+  to {
+    height: 300px; } }
 
 /*------------------
  * Section Title
