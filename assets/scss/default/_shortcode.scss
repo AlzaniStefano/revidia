@@ -483,32 +483,56 @@ img.react-parallax-bgimage {
 
 
 .flip-card {
-
-  }
   
   .content {
     transition: transform 1s;
+    // -webkit-transition: transform 0s;
     transform-style: preserve-3d;
   }
   
-  .flip-card:hover .content {
-    transform: rotateY( 180deg ) ;
+  &:hover .content {
+    transform: rotateY( -180deg ) ;
+    -webkit-transform:rotateY( -180deg ) ;
     transition: transform 0.5s;
+    // -webkit-transition: transform 0s;
   }
   
   .front,
   .back {
     backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    transform: rotateX(0deg);
+    -webkit-transform: rotateX(0deg);
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
   }
   
   .back {
     transform: rotateY( 180deg );
+    -webkit-transform:rotateY( 180deg ) ;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color:  rgb(255, 225, 137);
+  }
 }
-  
-  
+
+.music-theme {
+    filter: hue-rotate(215deg);
+}
+
+// SAFARI ONLY ----------------------------------------------------------
+@media not all and (min-resolution:.001dpcm) { 
+    @supports (-webkit-appearance:none) {
+        .flip-card {
+            .content, &:hover .content {
+                -webkit-transition: transform 0s;
+            }
+        }
+
+        .attachment {
+            background-attachment:unset!important;
+        }
+    }
+}

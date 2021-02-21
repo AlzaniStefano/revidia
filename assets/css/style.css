@@ -3775,26 +3775,42 @@ img.react-parallax-bgimage {
   .flex.fd-r {
     flex-direction: row; }
 
-.content {
+.flip-card .content {
   transition: transform 1s;
   transform-style: preserve-3d; }
 
 .flip-card:hover .content {
-  transform: rotateY(180deg);
+  transform: rotateY(-180deg);
+  -webkit-transform: rotateY(-180deg);
   transition: transform 0.5s; }
 
-.front,
-.back {
-  backface-visibility: hidden; }
+.flip-card .front,
+.flip-card .back {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  transform: rotateX(0deg);
+  -webkit-transform: rotateX(0deg);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d; }
 
-.back {
+.flip-card .back {
   transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
-  background-color: #ffe189; }
+  height: 100%; }
+
+.music-theme {
+  filter: hue-rotate(215deg); }
+
+@media not all and (min-resolution: 0.001dpcm) {
+  @supports (-webkit-appearance: none) {
+    .flip-card .content, .flip-card:hover .content {
+      -webkit-transition: transform 0s; }
+    .attachment {
+      background-attachment: unset !important; } } }
 
 /*=========================
     Section Separation 
@@ -9332,6 +9348,11 @@ a.item-portfolio-static {
 #contact-us {
   padding-bottom: 75px; }
 
+.music-page .paragraph-card {
+  background: #d9edff;
+  padding: 60px 30px;
+  border-radius: 35px; }
+
 .music-page #make-your-music {
   margin: 130px 0; }
   .music-page #make-your-music .container {
@@ -9343,14 +9364,14 @@ a.item-portfolio-static {
       .music-page #make-your-music .container .bars-wrapper .bar {
         flex: 1;
         height: 300px;
-        background: #ffe189;
+        background: #c2dcef;
         margin: 0 1%; }
         .music-page #make-your-music .container .bars-wrapper .bar.odd {
-          animation: bars-music 2s infinite; }
+          animation: bars-music 5s infinite ease-in-out; }
         .music-page #make-your-music .container .bars-wrapper .bar.other {
-          animation: bars-music-2 3s infinite; }
+          animation: bars-music-2 3s infinite ease-in; }
         .music-page #make-your-music .container .bars-wrapper .bar.not-odd {
-          animation: bars-music-3 4s infinite; }
+          animation: bars-music-3 2s infinite ease-out; }
     .music-page #make-your-music .container .bars-title {
       position: absolute;
       top: 50%;
@@ -9363,15 +9384,33 @@ a.item-portfolio-static {
 
 .music-page #music-grid {
   margin: 150px 0; }
-  .music-page #music-grid h3 {
+  .music-page #music-grid .mood-title {
     font-size: 48px;
     text-align: end; }
+  .music-page #music-grid .flip-card .content .back {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .music-page #music-grid .flip-card .content .back h4, .music-page #music-grid .flip-card .content .back p {
+      text-align: center;
+      padding: 15px 30px;
+      margin: 0;
+      color: inherit; }
+    .music-page #music-grid .flip-card .content .back h4 {
+      font-size: 38px; }
+
+.music-page .fa-angle-up {
+  filter: hue-rotate(215deg); }
 
 @keyframes bars-music {
   from {
     height: 300px; }
-  50% {
+  25% {
     height: 50px; }
+  50% {
+    height: 150px; }
+  75% {
+    height: 30px; }
   to {
     height: 300px; } }
 
@@ -9380,6 +9419,10 @@ a.item-portfolio-static {
     height: 30px; }
   50% {
     height: 150px; }
+  50% {
+    height: 50px; }
+  50% {
+    height: 300px; }
   to {
     height: 30px; } }
 
@@ -10903,7 +10946,7 @@ p.form-messege-active.form-messege.success {
   padding: 120px 0; }
 
 .contact-us-wrapper {
-  background-color: orange;
+  background-color: #ff9625;
   padding: 5em;
   margin-top: -500px; }
   @media only screen and (max-width: 767px) {

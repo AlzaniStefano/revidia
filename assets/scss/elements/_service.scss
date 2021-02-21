@@ -588,6 +588,13 @@
 }
 
 .music-page {
+
+    .paragraph-card {
+        background: #d9edff;
+        padding: 60px 30px;
+        border-radius: 35px;
+    }
+
     #make-your-music {
         margin: 130px 0;
         .container {
@@ -599,16 +606,16 @@
                 .bar {
                     flex: 1;
                     height: 300px;
-                    background: rgb(255, 225, 137);
+                    background: rgb(194, 220, 239);
                     margin: 0 1%;
                     &.odd {
-                        animation: bars-music 2s infinite;
+                        animation: bars-music 5s infinite ease-in-out;
                     }
                     &.other {
-                        animation: bars-music-2 3s infinite;
+                        animation: bars-music-2 3s infinite ease-in;
                     }
                     &.not-odd {
-                        animation: bars-music-3 4s infinite;
+                        animation: bars-music-3 2s infinite ease-out;
                     }
                 }
             }
@@ -627,22 +634,48 @@
 
     #music-grid {
         margin: 150px 0;
-        h3 {
+        .mood-title {
             font-size: 48px;
             text-align: end;
         }
+        .flip-card {
+            .content {
+                .back {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    h4,p {
+                        text-align: center;
+                        padding: 15px 30px;
+                        margin: 0;
+                        color: inherit;
+                    }
+                    h4 {
+                        font-size: 38px;
+                    }
+                }
+            }
+        }
+    }
+
+    .fa-angle-up {
+        filter: hue-rotate(215deg);
     }
 }
 
     @keyframes bars-music {
         from {height: 300px;}
-        50% {height: 50px;}
+        25% {height: 50px;}
+        50% {height: 150px;}
+        75% {height: 30px;}
         to {height: 300px;}
     }
 
     @keyframes bars-music-2 {
         from {height: 30px;}
         50% {height: 150px;}
+        50% {height: 50px;}
+        50% {height: 300px;}
         to {height: 30px;}
     }
 
