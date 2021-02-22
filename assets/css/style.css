@@ -3812,6 +3812,79 @@ img.react-parallax-bgimage {
     .attachment {
       background-attachment: unset !important; } } }
 
+.megadrone {
+  width: 90%;
+  opacity: 0.15;
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  transform: translate(-50%, -50%); }
+  .megadrone svg {
+    width: 100%;
+    height: auto; }
+  .megadrone .section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; }
+  .megadrone .down-50 {
+    transform: translateY(50px); }
+  .megadrone .down-100 {
+    transform: translateY(100px); }
+  .megadrone .down-150 {
+    transform: translateY(150px); }
+  .megadrone #frame {
+    /* Safari */
+    -webkit-transition: -webkit-transform 1s;
+    transition: transform 1s; }
+  .megadrone #esc {
+    -webkit-transition: -webkit-transform 1s;
+    transition: transform 1s; }
+  .megadrone #bot-spacer {
+    -webkit-transition: -webkit-transform 1s;
+    transition: transform 1s; }
+  .megadrone #motor {
+    -webkit-transition: -webkit-transform 1s;
+    transition: transform 1s; }
+  .megadrone #fc {
+    -webkit-transition: -webkit-transform 1s;
+    transition: transform 1s; }
+  .megadrone .up-50 {
+    transform: translateY(-50px); }
+  .megadrone .up-75 {
+    transform: translateY(-75px); }
+  .megadrone .up-100 {
+    transform: translateY(-100px); }
+  .megadrone .up-150 {
+    transform: translateY(-150px); }
+  .megadrone .up-200 {
+    transform: translateY(-200px); }
+  .megadrone #nut {
+    -webkit-transition: -webkit-transform 1s;
+    transition: transform 1s; }
+  .megadrone #prop {
+    -webkit-transition: -webkit-transform 1s;
+    transition: transform 1s; }
+  .megadrone #top-spacer {
+    -webkit-transition: -webkit-transform 1s;
+    transition: transform 1s; }
+  .megadrone #xt60 {
+    -webkit-transition: -webkit-transform 1s;
+    transition: transform 1s; }
+  .megadrone #wire {
+    -webkit-transition: -webkit-transform 1s;
+    transition: transform 1s; }
+  .megadrone #fpv {
+    -webkit-transition: -webkit-transform 1s;
+    transition: transform 1s; }
+  .megadrone #gopro {
+    -webkit-transition: -webkit-transform 1s;
+    transition: transform 1s; }
+  .megadrone #vtx {
+    -webkit-transition: -webkit-transform 1s;
+    transition: transform 1s; }
+
 /*=========================
     Section Separation 
 ==========================*/
@@ -9433,6 +9506,82 @@ a.item-portfolio-static {
     height: 50px; }
   to {
     height: 300px; } }
+
+.drone-page {
+  color: white; }
+  .drone-page .page-color {
+    background-color: #191919; }
+  .drone-page p {
+    color: white; }
+  .drone-page #contact-us {
+    background-color: #191919; }
+    .drone-page #contact-us .contact-us-wrapper {
+      background-color: #767676; }
+      .drone-page #contact-us .contact-us-wrapper button {
+        background-color: #343a40;
+        border-color: #343a40; }
+  .drone-page .drone-grid {
+    background-color: #191919;
+    padding-top: 250px; }
+    .drone-page .drone-grid .grid-item .img-wrapper {
+      position: relative; }
+      .drone-page .drone-grid .grid-item .img-wrapper::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-image: linear-gradient(0deg, #3a3a3a, #ffffff17); }
+    .drone-page .drone-grid .grid-item .grid-title {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 100%;
+      padding: 30px;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      font-size: 40px !important;
+      font-weight: bold; }
+  .drone-page .editorial-abstract {
+    background-image: linear-gradient(90deg, #f81d0c4a, #ef0d61);
+    border-top-right-radius: 150px;
+    border-bottom-right-radius: 150px; }
+    .drone-page .editorial-abstract h4 {
+      padding: 65px 65px 65px 5px;
+      margin: 0;
+      font-size: 46px;
+      margin: 0 0 0 auto; }
+    .drone-page .editorial-abstract::before {
+      content: '';
+      position: absolute;
+      left: -100%;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: #f81d0c4a; }
+  .drone-page .editorial-abstract-2 p {
+    margin: 0;
+    font-size: 46px;
+    max-width: 600px;
+    text-align: center;
+    line-height: initial;
+    margin-bottom: 100px; }
+    .drone-page .editorial-abstract-2 p span {
+      font-weight: bold; }
+  .drone-page .drone-card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 30px;
+    margin: 0 12px 50px; }
+    .drone-page .drone-card h3, .drone-page .drone-card p {
+      color: black; }
+
+@media only screen and (max-width: 600px) {
+  .drone-page .megadrone {
+    top: 80%; }
+  .drone-page .slide .container {
+    margin-bottom: 50%; } }
 
 /*------------------
  * Section Title
