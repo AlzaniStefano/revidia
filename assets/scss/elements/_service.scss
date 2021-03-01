@@ -760,6 +760,32 @@
             height: 100%;
             background: #f81d0c4a;
         }
+
+        &.reverse {
+            background-image: linear-gradient(270deg, #f81d0c4a, #ef0d61);
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+
+            border-top-left-radius: 150px;
+            border-bottom-left-radius: 150px;
+
+            h4 {
+                padding: 65px 5px 65px 65px;
+                margin: 0;
+                font-size: 46px;
+                margin: 0 auto 0 0;
+            }
+
+            &::before {
+                content: '';
+                position: absolute;
+                left: 100%;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                background: #f81d0c4a;
+            }
+        }
     }
 
     .editorial-abstract-2 {
