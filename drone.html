@@ -19,6 +19,8 @@
     <link rel="stylesheet" href="assets/css/vendor/lightbox.css">
     <link rel="stylesheet" href="assets/css/plugins/plugins.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 
 </head>
 
@@ -3170,13 +3172,14 @@
             <section class="page-color">
                 <div class="container pt--200">
                     <div class="row">
-                        <div class="col-md-10 editorial-abstract d-flex">
+                        <div class="col-md-10 editorial-abstract d-flex" data-aos="fade-left" data-aos-delay="500">
                             <h4> <span style="font-size: 36px">Riprese da ogni</span><br>angolazione</h4>
                         </div>
                     </div>
 
                     <div class="row mt--50">
-                        <div class="col-md-10 editorial-abstract reverse d-flex">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-10 editorial-abstract reverse d-flex" data-aos="fade-right" data-aos-delay="200">
                             <h4><span style="font-size: 36px;">Ne saremo all'</span><br>altezza</h4>
                         </div>
                     </div>
@@ -3501,6 +3504,7 @@
 
     <!-- JS
 ============================================ -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- Modernizer JS -->
     <script src="assets/js/vendor/modernizr.min.js"></script>
     <!-- jQuery JS -->
@@ -3515,6 +3519,11 @@
     <!-- Main JS -->
     <script src="assets/js/main.js"></script>
 
+    <script>
+        AOS.init({
+            duration: 1000,
+        });
+    </script>
 
 </body>
 
