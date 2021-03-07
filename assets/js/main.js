@@ -18,6 +18,8 @@ Index All JS
         12. Smoth Scroll
 --------------------------------------------------*/
 
+// const { init } = require("aos");
+
 
 (function ($) {
     'use strict';
@@ -40,6 +42,19 @@ Index All JS
         //   $("#gopro").toggleClass("up-150");
         //   $("#vtx").toggleClass("up-100");
         // });
+
+        var timeLine = $('.video-page .time-line');
+        var initScroll = false;
+
+        if (timeLine) {
+            timeLine.scroll(function () {
+                // $('body').scrollTo('#time-line');
+                document.getElementById("time-line").scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+                
+
+            });
+        }
 
 
          var position = $(window).scrollTop(); 
