@@ -7618,11 +7618,13 @@ img.react-parallax-bgimage {
 .logo {
   max-width: 150px; }
 
-.rn-slider-area .service-wrapper.service-white .row {
-  justify-content: center;
-  align-items: baseline; }
-  .rn-slider-area .service-wrapper.service-white .row .content {
-    padding: 0 40px; }
+.rn-slider-area {
+  background-color: rgba(0, 0, 0, 0.6); }
+  .rn-slider-area .service-wrapper.service-white .row {
+    justify-content: center;
+    align-items: baseline; }
+    .rn-slider-area .service-wrapper.service-white .row .content {
+      padding: 0 40px; }
 
 [data-aos^=zoom][data-aos^=zoom].aos-animate {
   transform: none !important; }
@@ -12910,7 +12912,7 @@ a.purchase-btn {
     margin: 0 auto;
     flex-wrap: wrap;
     flex-direction: column;
-    max-width: 1000px;
+    max-width: 1240px;
     position: relative; }
     .time-line .timeline__content-title {
       font-weight: normal;
@@ -12945,7 +12947,7 @@ a.purchase-btn {
       padding: 40px 0;
       transition: .5s;
       box-sizing: border-box;
-      width: calc(50% - 40px);
+      width: calc(50% - 140px);
       display: flex;
       position: relative;
       transform: translateY(-80px); }
@@ -12954,7 +12956,7 @@ a.purchase-btn {
         height: 30px;
         position: absolute;
         background: white;
-        left: 485px;
+        left: 605px;
         top: 28%;
         border-radius: 50%; }
       .time-line .timeline-item .dot-reverse {
@@ -12962,7 +12964,7 @@ a.purchase-btn {
         height: 30px;
         position: absolute;
         background: white;
-        right: 485px;
+        right: 605px;
         top: 28%;
         border-radius: 50%; }
       .time-line .timeline-item:before {
