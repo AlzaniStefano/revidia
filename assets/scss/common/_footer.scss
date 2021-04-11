@@ -48,7 +48,7 @@ Footer Styles
                 right: 0;
                 top: 50%;
                 z-index: -1;
-                font-size: 240px;
+                font-size: 238px;
                 font-weight: 900;
                 color: rgba(0, 0, 0, 0.1);
                 transform: translateY(-50%);
@@ -58,7 +58,7 @@ Footer Styles
 
             >span {
                 color: #fff;
-                font-size: 15px;
+                font-size: 14px;
                 text-transform: uppercase;
                 letter-spacing: 4px;
                 display: block;
@@ -72,13 +72,13 @@ Footer Styles
 
             h2 {
                 color: #ffffff;
-                font-size: 75px;
+                font-size: 70px;
                 font-weight: 900;
                 font-family: 'Montserrat', sans-serif;
                 line-height: 90px;
 
                 @media #{$lg-layout} {
-                    font-size: 50px;
+                    font-size: 48px;
                     line-height: 61px;
                 }
 

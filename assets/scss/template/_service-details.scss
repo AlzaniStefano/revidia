@@ -15,7 +15,7 @@
         .details {
             p {
                 color: rgba(29, 29, 36, 0.75);
-                font-size: 18px;
+                font-size: 16px;
                 line-height: 30px;
                 margin-bottom: 0;
                 & + p {
@@ -24,13 +24,13 @@
             }
             h4 {
                 &.title {
-                    font-size: 36px;
+                    font-size: 34px;
                     line-height: 30px;
                     font-weight: 500;
                     margin-top: 40px;
                     margin-bottom: 27px;
                     @media #{$sm-layout} {
-                        font-size: 26px;
+                        font-size: 24px;
                         line-height: 38px;
                         margin-top: 26px;
                         margin-bottom: 18px;

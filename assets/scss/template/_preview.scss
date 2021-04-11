@@ -114,12 +114,12 @@
             }
         }
         .title {
-            font-size: 23px;
+            font-size: 20px;
             color: #515462;
             line-height: 42px;
             margin: 30px 0 50px 0;
             @media #{$laptop-device} {
-                font-size: 20px;
+                font-size: 18px;
                 line-height: 36px;
                 margin: 24px 0 40px 0;
             }
@@ -157,7 +157,7 @@
                     }
                     @media #{$sm-layout} {
                         padding: 9px 12px;
-                        font-size: 14px;
+                        font-size: 12px;
                     }
                 }
                 @media #{$laptop-device} {
@@ -218,7 +218,7 @@
                 text-align: center;
                 padding: 20px 0;
                 color: rgba(255,255,255,0.7);
-                font-size: 20px;
+                font-size: 18px;
                 font-weight: 500;
                 transition: 0.3s ease-in-out;
                 letter-spacing: .20px;
@@ -261,7 +261,7 @@
             text-align: left;
             padding: 25px 0 10px 0;
             color: #1f1f25;
-            font-size: 20px;
+            font-size: 18px;
             font-weight: 500;
             transition: 0.3s ease-in-out;
             letter-spacing: .20px;
@@ -272,7 +272,7 @@
             display: block;
             padding: 0;
             color: rgba(29,29,36,0.75);
-            font-size: 14px;
+            font-size: 12px;
             font-weight: 300;
             transition: 0.3s ease-in-out;
             line-height: 25px;
@@ -283,7 +283,7 @@
                 position: absolute;
                 color: #f6f6f6;
                 z-index: -1;
-                font-size: 81px;
+                font-size: 78px;
                 bottom: -55px;
                 line-height: inherit;
                 font-weight: 300;
@@ -306,7 +306,7 @@
             padding: 9px 14px;
             color: #fff;
             border-radius: 4px;
-            font-size: 14px;
+            font-size: 12px;
             line-height: 1;
             right: 5px;
             text-transform: uppercase;
@@ -326,7 +326,7 @@ Faq Area
         margin-top: 20px;
     }
     .accodion-style--1 .accordion__item .accordion__heading .accordion__button {
-        font-size: 18px;
+        font-size: 16px;
         padding: 10px 0;
     }
     .accodion-style--1 .accordion__item .accordion__heading {
@@ -383,7 +383,7 @@ Faq Area
     button {
         padding: 0 14px;
         color: #101010;
-        font-size: 16px;
+        font-size: 14px;
         cursor: pointer;
         outline: none;
         border: 0 none;
@@ -433,7 +433,7 @@ Footer Style
         h2{
             &.title {
                 color: $heading-color;
-                font-size: 60px;
+                font-size: 58px;
                 font-weight: 500;
                 margin-bottom: 65px;
             }
@@ -447,7 +447,7 @@ a {
         height: 70px;
         line-height: 70px;
         border-radius: 43px;
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 500;
         text-transform: uppercase;
         transition: 0.4s ease-in-out;
@@ -471,11 +471,11 @@ a {
                 color: #c6c9d8;
                 @media #{$md-layout} {
                     margin-bottom: 13px;
-                    font-size: 20px;
+                    font-size: 18px;
                 }
                 @media #{$sm-layout} {
                     margin-bottom: 13px;
-                    font-size: 20px;
+                    font-size: 18px;
                 }
             }
         }
@@ -483,15 +483,15 @@ a {
             &.subtitle{
                 color: #c6c9d8 !important;
                 @media #{$md-layout} {
-                    font-size: 16px;
+                    font-size: 14px;
                     line-height: 28px;
                 }
                 @media #{$laptop-device} {
-                    font-size: 16px;
+                    font-size: 12px;
                     line-height: 26px;
                 }
                 @media #{$sm-layout} {
-                    font-size: 16px;
+                    font-size: 12px;
                     line-height: 28px;
                     color: #ffffff;
                 }

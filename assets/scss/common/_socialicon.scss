@@ -16,7 +16,7 @@ ul {
                 color: rgba(198, 201, 216, 0.75);
                 border-radius: 100%;
                 text-align: center;
-                font-size: 14px;
+                font-size: 12px;
                 @extend %transition;
             }
             &:hover {
@@ -51,7 +51,7 @@ ul {
                     width: 50px;
                     height: 50px;
                     line-height: 47px;
-                    font-size: 16px;
+                    font-size: 14px;
                 }
             }
         }
@@ -63,7 +63,7 @@ ul {
                     height: auto;
                     text-align: left;
                     line-height: inherit;
-                    font-size: 16px;
+                    font-size: 14px;
                 }
                 &:hover{
                     a {

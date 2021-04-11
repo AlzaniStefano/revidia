@@ -74,7 +74,7 @@ Blog Styles
             }
             p{
                 &.blogtype{
-                    font-size: 14px;
+                    font-size: 12px;
                     margin-bottom: 5px;
                     color: #c6c9d8;
                 }
@@ -84,7 +84,7 @@ Blog Styles
                     margin-bottom: 0;
                     a{
                         color: #ffffff;
-                        font-size: 24px;
+                        font-size: 22px;
                         font-weight: 500;
                         line-height: 36px;
                         @extend %transition;

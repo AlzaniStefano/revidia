@@ -3,7 +3,7 @@
     li {
         color: #7e7e7e;
         font-weight: 400;
-        font-size: 16px;
+        font-size: 14px;
         line-height: inherit;
         margin-bottom: 10px;
         display: flex;
@@ -36,12 +36,12 @@ ul {
             position: relative;
             padding-left: 16px;
             color: rgba(29, 29, 36, 0.75);
-            font-size: 18px;
+            font-size: 16px;
             line-height: 25px;
             display: flex;
             align-items: center;
             @media #{$sm-layout} {
-                font-size: 16px;
+                font-size: 14px;
                 line-height: 22px;
             }
             &::before {

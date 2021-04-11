@@ -5,7 +5,7 @@ a {
     &.btn-transparent{
         color: #1f1f25;
         @extend %transition;
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 500;
         position: relative;
         display: inline-block;
@@ -42,7 +42,7 @@ button {
         line-height: 34px;
         border: 2px solid $theme-color;
         border-radius: 4px;
-        font-size: 14px;
+        font-size: 12px;
         position: relative;
         z-index: 2;
         // font-family: Montserrat;
@@ -70,7 +70,7 @@ button,
 a {
     &.rn-button-style--2 {
         color: #c6c9d8;
-        font-size: 16px;
+        font-size: 14px;
         text-transform: uppercase;
         letter-spacing: 2px;
         border: 2px solid #b1b4c1;
@@ -93,13 +93,13 @@ a {
         &.btn-size-md {
             padding: 9px 15px;
             letter-spacing: 1px;
-            font-size: 15px;
+            font-size: 14px;
         }
         &.btn-size-sm {
             padding: 11px 15px;
             font-size: 13px;
             letter-spacing: 0;
-            line-height: 13px;
+            line-height: 14px;
         }
 
         &.btn_border {
@@ -223,11 +223,11 @@ a {
     .video {
         h2 {
             color: #ffffff;
-            font-size: 32px;
+            font-size: 30px;
         }
 
         h4 {
-            font-size: 22px;
+            font-size: 20px;
             line-height: 32px;
         }
     }

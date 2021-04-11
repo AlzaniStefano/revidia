@@ -65,7 +65,7 @@
                 border: 2px solid #b1b4c1;
                 border-radius: 6px;
                 color: #c6c9d8;
-                font-size: 14px;
+                font-size: 12px;
                 @extend %transition;
                 position: relative;
                 z-index: 2;
@@ -594,7 +594,7 @@
 
                 span {
                     color: #000000;
-                    font-size: 30px;
+                    font-size: 28px;
                     cursor: pointer;
 
                     svg {
@@ -687,11 +687,11 @@
         }
 
         @media #{$sm-layout} {
-            font-size: 28px;
+            font-size: 26px;
         }
 
         @media #{$md-layout} {
-            font-size: 28px;
+            font-size: 26px;
         }
     }
 }

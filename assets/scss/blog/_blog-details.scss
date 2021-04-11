@@ -7,10 +7,10 @@ BLog Details Styles
     h2 {
         font-weight: 700;
         line-height: 90px;
-        font-size: 72px;
+        font-size: 70px;
         @media #{$sm-layout} {
             line-height: 48px;
-            font-size: 36px;
+            font-size: 34px;
         }
     }
     ul {
@@ -26,7 +26,7 @@ BLog Details Styles
                 bottom: -105px;
             }
             li {
-                font-size: 16px;
+                font-size: 12px;
                 color: #c6c9d8;
                 margin: 0 15px;
                 margin-bottom: 13px;
@@ -37,7 +37,7 @@ BLog Details Styles
                 }
                 svg {
                     margin-right: 13px;
-                    font-size: 22px;
+                    font-size: 20px;
                 }
             }
         }
@@ -57,7 +57,7 @@ BLog Details Styles
                 padding: 0 10px;
             }
             p {
-                font-size: 18px;
+                font-size: 12px;
                 line-height: 30px;
                 color: rgba(29, 29, 36, 0.75);
                 margin-bottom: 40px;
@@ -78,7 +78,7 @@ BLog Details Styles
                 }
             }
             .rn-blog-quote {
-                font-size: 24px;
+                font-size: 22px;
                 line-height: 40px;
                 color: $heading-color;
                 font-weight: 400;
@@ -104,14 +104,14 @@ BLog Details Styles
                     padding: 0 4%;
                     margin-top: 40px;
                     margin-bottom: 40px;
-                    font-size: 20px;
+                    font-size: 18px;
                     line-height: 33px;
                 }
                 @media #{$large-mobile} {
                     padding: 0;
                     margin-top: 20px;
                     margin-bottom: 20px;
-                    font-size: 16px;
+                    font-size: 14px;
                     line-height: 29px;
                 }
 
@@ -157,13 +157,13 @@ BLog Details Styles
                 }
                 span {
                     color: rgba(29, 29, 36, 0.75);
-                    font-size: 14px;
+                    font-size: 12px;
                     display: block;
                     text-align: left;
                     padding-top: 10px;
                     padding-left: 110px;
                     @media #{$sm-layout} {
-                        font-size: 13px;
+                        font-size: 12px;
                         padding-left: 0;
                         margin-bottom: 23px;
                     }
@@ -171,7 +171,7 @@ BLog Details Styles
             }
             h4{
                 &.title{
-                    font-size: 24px;
+                    font-size: 22px;
                     font-weight: 500;
                     margin-bottom: 30px;
                     @media #{$sm-layout} {
@@ -213,7 +213,7 @@ BLog Details Styles
                 border: 2px solid #e9e9e9;
                 border-radius: 4px;
                 height: 50px;
-                font-size: 16px;
+                font-size: 12px;
             }
             textarea {
                 min-height: 193px;
@@ -221,7 +221,7 @@ BLog Details Styles
                 border-radius: 4px;
                 resize: none;
                 padding: 15px;
-                font-size: 16px;
+                font-size: 12px;
             }
         }
     }

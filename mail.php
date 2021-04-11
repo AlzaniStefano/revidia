@@ -12,13 +12,12 @@
             echo "Please complete the form and try again.";
             exit;
         }
-        $recipient = "nipabali56@gmail.com";
+        $recipient = "stefanino.alzo@gmail.com";
         $subject = "New contact from $name";
 
         $email_content = "Name: $name\n";
         $email_content .= "Email: $email\n\n";
         $email_content .= "Subject: $subject\n\n";
-        $email_content .= "Message:\n$message\n";
         $email_headers = "From: $name <$email>";
         if (mail($recipient, $subject, $email_content, $email_headers)) {
             http_response_code(200);

@@ -61,16 +61,16 @@
 
                 h4 {
                     color: #ffffff;
-                    font-size: 36px;
+                    font-size: 32px;
                     font-weight: 500;
                     margin-bottom: 20px;
                     @media #{$sm-layout} {
-                        font-size: 26px;
+                        font-size: 24px;
                         margin-bottom: 12px;
                     }
                 }
                 p {
-                    font-size: 18px;
+                    font-size: 16px;
                     color: #ffffff;
                     font-weight: 300;
                     margin-bottom: 41px;
@@ -131,7 +131,7 @@
                 margin-bottom: 8px;
                 @media #{$sm-layout} {
                     margin-bottom: 15px;
-                    font-size: 31px;
+                    font-size: 28px;
                 }   
             }
         }
@@ -194,11 +194,11 @@
     margin-top: 15px;
     h3{
         &.title{
-            font-size: 30px;
+            font-size: 28px;
             @extend %fontWeight500;
             margin-bottom: 20px;
             @media #{$sm-layout} {
-                font-size: 26px;
+                font-size: 22px;
                 margin-bottom: 8px;
             }
         }
