@@ -9048,6 +9048,40 @@ a.item-portfolio-static {
     Service Area 
 ===========================*/
 /* Bg Color Variation  */
+.img-icon-foto {
+  background-image: url(../images/bg/foto_n.svg);
+  background-size: 44px;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 50px;
+  content: ''; }
+  .img-icon-foto :hover {
+    background-image: url(../images/bg/foto.svg); }
+
+.img-icon-musica {
+  background-image: url(../images/bg/music.svg);
+  background-size: 44px;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 50px;
+  content: ''; }
+
+.img-icon-drone {
+  background-image: url(../images/bg/drone.svg);
+  background-size: 44px;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 50px;
+  content: ''; }
+
+.img-icon-video {
+  background-image: url(../images/bg/video.svg);
+  background-size: 44px;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 50px;
+  content: ''; }
+
 .single-service {
   display: flex;
   flex-direction: column;
@@ -9665,6 +9699,27 @@ a.item-portfolio-static {
     top: 80%; }
   .drone-page .slide .container {
     margin-bottom: 50%; } }
+
+.card-icon {
+  width: 44px;
+  height: 44px;
+  position: relative;
+  display: inline-block; }
+
+.card-icon .img-top {
+  width: 44px;
+  height: 44px;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99; }
+
+.single-service:hover .img-top {
+  display: inline; }
+
+.single-service:hover .img-bot {
+  display: none; }
 
 /*------------------
  * Section Title
@@ -11929,12 +11984,6 @@ BLog Details Styles
     #about-us .about-area {
       margin-top: 20px !important; } }
 
-.icon-images {
-  width: 54px;
-  padding-bottom: 20px; }
-  .icon-images img {
-    background-image: url("assets/images/icons/foto.svg"); }
-
 .rn-finding-us-area .inner {
   position: relative;
   padding-left: 240px;
@@ -12100,6 +12149,10 @@ BLog Details Styles
   .about-us-list p {
     font-weight: 300;
     color: rgba(29, 29, 36, 0.75); }
+
+.icon-images {
+  width: 54px;
+  padding-bottom: 20px; }
 
 /*-----------------------------
     Portfolio Details Styles 
@@ -12860,11 +12913,19 @@ a.purchase-btn {
   top: 6%;
   left: 12%; }
   .video-page .hero-title-video h1 {
-    font-size: 3rem;
+    font-size: 125px;
     font-weight: 900;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 900; }
+    font-weight: 900;
+    line-height: 130px; }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .video-page .hero-title-video h1 {
+        font-size: 3rem;
+        font-weight: 900;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 900; } }
 
 .video-page .vimeo-wrapper {
   position: relative;

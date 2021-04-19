@@ -10,11 +10,21 @@
     
 
     h1 {
-      font-size: 3rem;
+      font-size: 125px;
+        font-weight: 900;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 900;
+        line-height: 130px;
+      
+      @media #{$md-layout} {  
+
+        font-size: 3rem;
       font-weight: 900;
       text-transform: uppercase;
       font-family: 'Montserrat', sans-serif;
       font-weight: 900;
+      }
     }
   }
 

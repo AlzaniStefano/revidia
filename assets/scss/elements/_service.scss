@@ -2,6 +2,41 @@
     Service Area 
 ===========================*/
 /* Bg Color Variation  */
+.img-icon-foto {
+        background-image: url(../images/bg/foto_n.svg);
+        background-size: 44px;
+        background-repeat: no-repeat;
+        width: 100px;
+        height: 50px;
+        content: '';
+    :hover {
+        background-image: url(../images/bg/foto.svg);
+    }
+}
+.img-icon-musica {
+    background-image: url(../images/bg/music.svg);
+    background-size: 44px;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 50px;
+    content: '';
+}
+.img-icon-drone {
+    background-image: url(../images/bg/drone.svg);
+    background-size: 44px;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 50px;
+    content: '';
+}
+.img-icon-video {
+    background-image: url(../images/bg/video.svg);
+    background-size: 44px;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 50px;
+    content: '';
+}
 .single-service {
     display: flex;
     flex-direction: column;
@@ -906,3 +941,24 @@
 }
 
 
+.card-icon {
+    width: 44px;
+    height: 44px;
+    position: relative;
+    display: inline-block;
+}
+.card-icon .img-top {
+    width: 44px;
+    height: 44px;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.single-service:hover .img-top {
+    display: inline;
+}
+.single-service:hover .img-bot {
+    display: none;
+}

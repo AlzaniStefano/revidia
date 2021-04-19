@@ -9,14 +9,7 @@
     }}
 }
 
-.icon-images {
-    width: 54px;
-    padding-bottom: 20px;
 
-    img {
-        background-image: url("assets/images/icons/foto.svg");
-    }
-}
 .rn-finding-us-area {
     .inner {
         position: relative;
@@ -222,4 +215,9 @@
         font-weight: 300;
         color: rgba(29, 29, 36, 0.75);
     }
+}
+
+.icon-images {
+    width: 54px;
+    padding-bottom: 20px;
 }
