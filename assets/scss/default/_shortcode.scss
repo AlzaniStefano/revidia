@@ -150,7 +150,7 @@ p {
     line-height: 30px;
     @media #{$sm-layout} {
         font-size: 14px !important;
-        line-height: 28px !important;
+        //line-height: 28px !important;
     }
 }
 
@@ -520,6 +520,10 @@ img.react-parallax-bgimage {
 
 .music-theme {
     filter: hue-rotate(215deg);
+
+    @media #{$sm-layout} {
+        text-align: center;
+    }
 }
 
 // SAFARI ONLY ----------------------------------------------------------

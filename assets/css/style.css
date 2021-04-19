@@ -3471,8 +3471,7 @@ p {
   line-height: 30px; }
   @media only screen and (max-width: 767px) {
     p {
-      font-size: 14px !important;
-      line-height: 28px !important; } }
+      font-size: 14px !important; } }
 
 p:last-child {
   margin-bottom: 0; }
@@ -3804,6 +3803,9 @@ img.react-parallax-bgimage {
 
 .music-theme {
   filter: hue-rotate(215deg); }
+  @media only screen and (max-width: 767px) {
+    .music-theme {
+      text-align: center; } }
 
 @media not all and (min-resolution: 0.001dpcm) {
   @supports (-webkit-appearance: none) {
@@ -9581,7 +9583,7 @@ a.item-portfolio-static {
         padding: 30px;
         transform: translate(-50%, 0);
         text-align: center;
-        font-size: 38px !important;
+        font-size: 30px !important;
         font-weight: bold; }
       .drone-page .drone-grid .grid-item:hover .grid-cta {
         position: absolute;
@@ -10313,8 +10315,7 @@ Slider Default
       right: -26px;
       position: absolute;
       top: -17px;
-      font-size: 40px;
-      content: "+"; }
+      font-size: 40px; }
   .counterup_style--1 p.description {
     font-size: 18px;
     line-height: 30px;
@@ -11162,6 +11163,10 @@ p.form-messege-active.form-messege.success {
 
 #contact-us {
   padding: 120px 0; }
+  @media only screen and (max-width: 767px) {
+    #contact-us {
+      padding-bottom: 0;
+      padding-top: 60px; } }
 
 .contact-us-wrapper {
   background-color: #ff9625;
@@ -11918,6 +11923,18 @@ BLog Details Styles
 /*====================
     About Area 
 ======================*/
+#about-us {
+  margin-top: 120px; }
+  @media only screen and (max-width: 767px) {
+    #about-us .about-area {
+      margin-top: 20px !important; } }
+
+.icon-images {
+  width: 54px;
+  padding-bottom: 20px; }
+  .icon-images img {
+    background-image: url("assets/images/icons/foto.svg"); }
+
 .rn-finding-us-area .inner {
   position: relative;
   padding-left: 240px;
@@ -12843,12 +12860,11 @@ a.purchase-btn {
   top: 6%;
   left: 12%; }
   .video-page .hero-title-video h1 {
-    font-size: 125px;
+    font-size: 3rem;
     font-weight: 900;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
-    line-height: 130px; }
+    font-weight: 900; }
 
 .video-page .vimeo-wrapper {
   position: relative;
@@ -12897,7 +12913,7 @@ a.purchase-btn {
       padding: 30px;
       transform: translate(-50%, -50%);
       text-align: center;
-      font-size: 38px !important;
+      font-size: 30px !important;
       font-weight: bold;
       line-height: 1; }
     .video-page .video-grid .grid-item .grid-cta {
@@ -12979,6 +12995,10 @@ a.purchase-btn {
         font-family: inherit;
         color: #fff;
         font-weight: 700; }
+        @media only screen and (max-width: 767px) {
+          .time-line .timeline__content-title {
+            font-size: 30px;
+            margin: 16px 0px; } }
       .time-line .timeline__content-desc {
         margin: 0;
         font-size: 12px;
@@ -13002,7 +13022,7 @@ a.purchase-btn {
           .time-line .timeline:before .hero-title-video h1 {
             font-size: 2.7rem; } }
     .time-line .timeline-item {
-      padding: 40px 0;
+      padding: 50px 0;
       transition: .5s;
       box-sizing: border-box;
       width: calc(50% - 140px);
@@ -13062,7 +13082,7 @@ a.purchase-btn {
         .time-line .timeline-item {
           align-self: baseline !important;
           width: 100%;
-          padding: 0 30px 150px 80px; }
+          padding: 20px 30px 150px 80px; }
           .time-line .timeline-item:before {
             left: 10px !important;
             padding: 0 !important;
@@ -13085,6 +13105,9 @@ a.purchase-btn {
       background-attachment: fixed;
       background-size: cover;
       background: #191919; }
+      @media only screen and (max-width: 767px) {
+        .time-line .timeline-container {
+          padding: 20px 0; } }
       .time-line .timeline-container:before {
         position: absolute;
         left: 0;
@@ -13113,7 +13136,10 @@ a.purchase-btn {
 
 @media only screen and (max-width: 765px) {
   .video-page .hero-title-video h1 {
-    font-size: 3rem; } }
+    font-size: 33px;
+    line-height: 50px;
+    margin-bottom: 20px;
+    text-align: center; } }
 
 .photo-page .video-grid {
   padding-top: 50px; }
@@ -13141,8 +13167,7 @@ a.purchase-btn {
       transform: translate(-50%, -50%);
       text-align: center;
       font-size: 36px !important;
-      font-weight: bold;
-      line-height: 1; }
+      font-weight: bold; }
     .photo-page .video-grid .grid-item .grid-cta {
       position: absolute;
       top: 65%;

@@ -142,6 +142,10 @@ p.form-messege-active.form-messege.success {
 }
 #contact-us {
     padding: 120px 0;
+    @media #{$sm-layout} {
+        padding-bottom: 0;
+        padding-top: 60px;
+    }
 }
 .contact-us-wrapper {
     background-color: #ff9625;

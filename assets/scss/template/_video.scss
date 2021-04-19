@@ -7,14 +7,14 @@
     position: absolute;
     top: 6%;
     left: 12%;
+    
 
     h1 {
-      font-size: 125px;
+      font-size: 3rem;
       font-weight: 900;
       text-transform: uppercase;
       font-family: 'Montserrat', sans-serif;
       font-weight: 900;
-      line-height: 130px;
     }
   }
 
@@ -100,7 +100,7 @@
         padding: 30px;
         transform: translate(-50%, -50%);
         text-align: center;
-        font-size: 38px!important;
+        font-size: 30px!important;
         font-weight: bold;
         line-height: 1;
     }
@@ -221,6 +221,11 @@ $timeline-container-width: 100%;
         font-family: inherit;
         color: #fff;
         font-weight: 700;
+
+        @media #{$sm-layout} {
+          font-size: 30px;
+          margin: 16px 0px;
+      }
       }
 
       &-desc {
@@ -250,7 +255,7 @@ $timeline-container-width: 100%;
     }
 
     &-item {
-      padding: 40px 0;
+      padding: 50px 0;
       transition: .5s;
       box-sizing: border-box;
       width: calc(50% - 140px);
@@ -327,7 +332,7 @@ $timeline-container-width: 100%;
       @include responsive() {
         align-self: baseline !important;
         width: 100%;
-        padding: 0 30px 150px 80px;
+        padding: 20px 30px 150px 80px;
 
         &:before {
           left: 10px !important;
@@ -357,6 +362,10 @@ $timeline-container-width: 100%;
       background-attachment: fixed;
       background-size: cover;
       background: #191919;
+
+      @media #{$sm-layout} {
+        padding: 20px 0;
+      }
 
       &:before {
         position: absolute;
@@ -402,7 +411,10 @@ $timeline-container-width: 100%;
   .hero-title-video {
 
     h1 {
-      font-size: 3rem;
+      font-size: 33px;
+      line-height: 50px;
+      margin-bottom: 20px;
+      text-align: center;
     }
   }
 }
