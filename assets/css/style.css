@@ -7619,6 +7619,7 @@ img.react-parallax-bgimage {
   max-width: 150px; }
 
 .rn-slider-area {
+  height: 100vh;
   background-color: rgba(0, 0, 0, 0.6); }
   .rn-slider-area .service-wrapper.service-white .row {
     justify-content: center;
@@ -9675,18 +9676,6 @@ a.item-portfolio-static {
 .slider-fixed--height {
   min-height: 1080px;
   width: 100%; }
-  @media only screen and (min-width: 1200px) and (max-width: 1599px) {
-    .slider-fixed--height {
-      min-height: 900px; } }
-  @media only screen and (max-width: 767px) {
-    .slider-fixed--height {
-      min-height: auto;
-      padding: 60px 0; } }
-  @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .slider-fixed--height {
-      min-height: auto;
-      padding: 80px 0;
-      padding-bottom: 60px; } }
 
 .react-parallax img {
   object-fit: cover; }
@@ -11018,7 +11007,7 @@ section#our-team {
     background-color: #abd8ff;
     padding: 50px 15%; }
   section#our-team .image-wrapper {
-    transform: translateY(35%); }
+    transform: translateY(15%); }
 
 .list-style--1 li {
   color: #7e7e7e;
@@ -12851,10 +12840,15 @@ a.purchase-btn {
 
 .video-page .hero-title-video {
   position: absolute;
-  top: 5%;
-  left: 10%; }
+  top: 6%;
+  left: 12%; }
   .video-page .hero-title-video h1 {
-    font-size: 5rem; }
+    font-size: 125px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    line-height: 130px; }
 
 .video-page .vimeo-wrapper {
   position: relative;

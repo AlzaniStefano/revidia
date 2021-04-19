@@ -8,19 +8,19 @@
     min-height: 1080px;
     width: 100%;
     
-    @media #{$laptop-device} {
-        min-height: 900px;
-    }
+    // @media #{$laptop-device} {
+    //     min-height: 900px;
+    // }
 
-    @media #{$sm-layout} {
-        min-height: auto;
-        padding: 60px 0;
-    }
-    @media #{$md-layout} {
-        min-height: auto;
-        padding: 80px 0;
-        padding-bottom: 60px;
-    }
+    // @media #{$sm-layout} {
+    //     min-height: auto;
+    //     padding: 60px 0;
+    // }
+    // @media #{$md-layout} {
+    //     min-height: auto;
+    //     padding: 80px 0;
+    //     padding-bottom: 60px;
+    // }
 }
 
 .react-parallax {
