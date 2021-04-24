@@ -342,6 +342,9 @@
             font-weight: 400;
             display: inline-flex;
             color: $theme-color;
+            width: 44px;
+            height: 74px;
+            
             img {
                 margin-bottom: 34px;
                 @media #{$large-mobile} {

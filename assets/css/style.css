@@ -9268,7 +9268,9 @@ a.item-portfolio-static {
       font-size: 52px;
       font-weight: 400;
       display: inline-flex;
-      color: #ee7760; }
+      color: #ee7760;
+      width: 44px;
+      height: 74px; }
       .single-service.service__style--3 .icon img {
         margin-bottom: 34px; }
         @media only screen and (max-width: 575px) {
@@ -12146,10 +12148,6 @@ BLog Details Styles
   .about-us-list p {
     font-weight: 300;
     color: rgba(29, 29, 36, 0.75); }
-
-.icon-images {
-  width: 54px;
-  padding-bottom: 20px; }
 
 /*-----------------------------
     Portfolio Details Styles 
