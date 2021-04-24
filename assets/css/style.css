@@ -9702,15 +9702,12 @@ a.item-portfolio-static {
 
 .card-icon {
   width: 44px;
-  height: 44px;
   position: relative;
   display: inline-block; }
 
 .card-icon .img-top {
   width: 44px;
-  height: 44px;
   display: none;
-  position: absolute;
   top: 0;
   left: 0;
   z-index: 99; }
@@ -12129,10 +12126,10 @@ BLog Details Styles
       margin-top: 0; } }
   @media only screen and (min-width: 1200px) and (max-width: 1599px) {
     .about-position-top .thumbnail {
-      margin-top: -89px; } }
+      margin-top: 89px; } }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .about-position-top .thumbnail {
-      margin-top: 0; } }
+      margin-top: 89px; } }
   @media only screen and (max-width: 767px) {
     .about-position-top .thumbnail {
       margin-top: 0; } }

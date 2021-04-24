@@ -187,10 +187,10 @@
             margin-top: 0;
         }
         @media #{$laptop-device} {
-            margin-top: -89px;
+            margin-top: 89px;
         }
         @media #{$md-layout} {
-            margin-top: 0;
+            margin-top: 89px;
         }
         @media #{$sm-layout} {
             margin-top: 0;
